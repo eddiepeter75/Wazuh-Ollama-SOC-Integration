@@ -1,0 +1,100 @@
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/07/02 12:11:59 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/07/02 12:11:59 rootcheck: INFO: Starting rootcheck scan.
+2025/07/02 12:11:59 wazuh-remoted: INFO: Started (pid: 686). Listening on port 1514/TCP (secure).
+2025/07/02 12:11:59 wazuh-remoted: INFO: Cannot find 'queue/db/wdb'. Waiting 1 seconds to reconnect.
+2025/07/02 12:12:00 wazuh-analysisd: INFO: Cannot find 'queue/db/wdb'. Waiting 2 seconds to reconnect.
+2025/07/02 12:12:00 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/07/02 12:12:00 wazuh-syscheckd: INFO: FIM sync module started.
+2025/07/02 12:12:00 wazuh-remoted: INFO: Cannot find 'queue/db/wdb'. Waiting 2 seconds to reconnect.
+2025/07/02 12:12:00 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/07/02 12:12:00 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/07/02 12:12:00 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/07/02 12:12:00 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/07/02 12:12:00 wazuh-logcollector: INFO: Started (pid: 715).
+2025/07/02 12:12:01 wazuh-monitord: INFO: Started (pid: 769).
+2025/07/02 12:12:01 wazuh-modulesd:router: INFO: Loaded router module.
+2025/07/02 12:12:01 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/07/02 12:12:01 wazuh-modulesd: INFO: Started (pid: 779).
+2025/07/02 12:12:01 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/07/02 12:12:01 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/07/02 12:12:01 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/07/02 12:12:01 sca: INFO: Module started.
+2025/07/02 12:12:01 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_amazon_linux_2023.yml'
+2025/07/02 12:12:01 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/07/02 12:12:01 sca: INFO: Starting Security Configuration Assessment scan.
+2025/07/02 12:12:01 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/07/02 12:12:01 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 1 seconds to reconnect.
+2025/07/02 12:12:01 wazuh-modulesd:router: INFO: Starting router module.
+2025/07/02 12:12:01 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/07/02 12:12:01 wazuh-modulesd:database: INFO: Module started.
+2025/07/02 12:12:01 wazuh-modulesd:download: INFO: Module started.
+2025/07/02 12:12:01 wazuh-modulesd:control: INFO: Starting control thread.
+2025/07/02 12:12:01 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 1 seconds to reconnect.
+2025/07/02 12:12:01 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_amazon_linux_2023.yml'
+2025/07/02 12:12:01 wazuh-modulesd:syscollector: INFO: Module started.
+2025/07/02 12:12:01 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/07/02 12:12:02 wazuh-analysisd: INFO: Cannot find 'queue/db/wdb'. Waiting 3 seconds to reconnect.
+2025/07/02 12:12:02 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/07/02 12:12:02 wazuh-remoted: INFO: Cannot find 'queue/db/wdb'. Waiting 3 seconds to reconnect.
+2025/07/02 12:12:02 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 2 seconds to reconnect.
+2025/07/02 12:12:02 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 2 seconds to reconnect.
+2025/07/02 12:12:04 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 3 seconds to reconnect.
+2025/07/02 12:12:04 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 3 seconds to reconnect.
+2025/07/02 12:12:05 wazuh-analysisd: INFO: Cannot find 'queue/db/wdb'. Waiting 4 seconds to reconnect.
+2025/07/02 12:12:05 wazuh-remoted: INFO: Cannot find 'queue/db/wdb'. Waiting 4 seconds to reconnect.
+2025/07/02 12:12:07 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-vulnerabilities-wazuh.manager', retrying until the connection is successful.
+2025/07/02 12:12:07 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 4 seconds to reconnect.
+2025/07/02 12:12:07 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 4 seconds to reconnect.
+2025/07/02 12:12:09 wazuh-analysisd: INFO: Cannot find 'queue/db/wdb'. Waiting 5 seconds to reconnect.
+2025/07/02 12:12:09 wazuh-remoted: INFO: Cannot find 'queue/db/wdb'. Waiting 5 seconds to reconnect.
+2025/07/02 12:12:11 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 5 seconds to reconnect.
+2025/07/02 12:12:11 wazuh-modulesd: INFO: Cannot find 'queue/db/wdb'. Waiting 5 seconds to reconnect.
+2025/07/02 12:12:12 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/07/02 12:12:14 wazuh-db: INFO: Created Global database backup "backup/db/global.db-backup-2025-07-02-12:12:13.gz"
+2025/07/02 12:12:14 wazuh-analysisd: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:14 wazuh-analysisd: ERROR: Unable to connect to Wazuh-DB for Mitre matrix information.
+2025/07/02 12:12:14 wazuh-analysisd: ERROR: Mitre matrix information could not be loaded.
+2025/07/02 12:12:14 wazuh-analysisd: INFO: (7200): Logtest started
+2025/07/02 12:12:14 wazuh-analysisd: INFO: EPS limit disabled
+2025/07/02 12:12:14 rootcheck: INFO: Ending rootcheck scan.
+2025/07/02 12:12:14 wazuh-remoted: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:14 wazuh-remoted: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:14 wazuh-remoted: ERROR: Error querying Wazuh DB to get agent's groups.
+2025/07/02 12:12:14 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/07/02 12:12:16 wazuh-modulesd: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:16 wazuh-modulesd: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:16 wazuh-modulesd:task-manager: ERROR: (8209): Tasks DB Cannot execute SQL query: err database 'queue/tasks/tasks.db'
+2025/07/02 12:12:16 wazuh-modulesd: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:16 wazuh-modulesd: ERROR: Unable to connect to socket 'queue/db/wdb'.
+2025/07/02 12:12:22 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_amazon_linux_2023.yml'
+2025/07/02 12:12:22 sca: INFO: Security Configuration Assessment scan finished. Duration: 21 seconds.
+2025/07/02 12:13:11 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-wazuh.manager.
+2025/07/02 12:22:41 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/07/02 12:22:41 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/07/02 12:22:41 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-db: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2025/07/02 12:22:41 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/07/02 12:22:42 wazuh-authd: INFO: Exiting...
+2025/07/02 12:22:43 wazuh-db: INFO: Graceful process shutdown.
+2025/07/02 12:51:07 wazuh-analysisd: ERROR: (1230): Invalid element in the configuration: 'timeout'.
+2025/07/02 12:51:07 wazuh-analysisd: ERROR: (1202): Configuration error at 'etc/ossec.conf'.
+2025/07/02 12:51:07 wazuh-analysisd: CRITICAL: (1202): Configuration error at 'etc/ossec.conf'.

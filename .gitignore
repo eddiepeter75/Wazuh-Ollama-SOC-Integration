@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node.js (if any dashboard dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+*.env # If you use .env files for environment variables
+docker-compose.override.yml # If generated
+.dockerignore
+
+# Wazuh Volumes (these are managed by Docker and shouldn't be in Git)
+wazuh_api_configuration/
+wazuh_etc/
+wazuh_logs/
+wazuh_queue/
+wazuh_db/
+wazuh_integrations/
+wazuh_tmp/
+wazuh_elastic_certificates/ # If these contain private keys, they should be excluded too
+wazuh_indexer_data/
+wazuh-dashboard-config/
+wazuh-dashboard-custom/
+
+# Ollama Volumes
+ollama_data/
+
+# Logs and temporary files
+*.log
+*.swp
+*.tmp

@@ -1,0 +1,4 @@
+# config/ollama-wazuh-integration/requirements.txt
+requests
+# If using Flask for an API endpoint:
+Flask

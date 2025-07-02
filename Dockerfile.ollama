@@ -1,0 +1,2 @@
+FROM ollama/ollama:latest
+RUN apk add --no-cache curl iputils
